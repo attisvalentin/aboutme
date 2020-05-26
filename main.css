@@ -5,7 +5,7 @@
 }
 
 
-h4 {
+h4, h1 {
     text-align: center;
 }
 
@@ -19,8 +19,5 @@ img {
     margin-right: auto;
     width: 10%;
     height: 10%;
-}
-
-img :hover {
-    scale: 1.6;
+    border-radius: 50%;
 }
