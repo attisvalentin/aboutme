@@ -21,6 +21,6 @@ img {
     height: 10%;
 }
 
-img:hover {
-    scale: 1.2;
+img :hover {
+    scale: 1.6;
 }
