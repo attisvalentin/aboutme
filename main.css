@@ -17,5 +17,8 @@ img {
     margin-right: auto;
     width: 10%;
     height: 10%;
-    border-radius: 2rem;
+}
+
+img:hover {
+    scale: 1.2;
 }
