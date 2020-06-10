@@ -88,7 +88,8 @@ pre,table,fieldset,hr {
 
  .menu-btn {
 	cursor: pointer;
-	display: inline;
+	display: block;
+	max-width: 13%;
  }
 
  .btn-line1, .btn-line2, .btn-line3 {
@@ -147,9 +148,7 @@ pre,table,fieldset,hr {
 	  background-color: rgba(187, 187, 187, 0.315);
   }
 
-
-
-  .wrapped-main h2 {
+  .wrapped-main h2, .wrapped-skills h2 {
 	font-family: 'Anton', sans-serif;
 	margin-bottom: 2rem;
 	margin-top: 1rem;
@@ -166,3 +165,16 @@ pre,table,fieldset,hr {
 	color:  rgb(31, 121, 148);
 	line-height: 2.25rem;
   }
+
+  .hide{display: none;}
+
+  /*skill section*/
+
+  .wrapped-skills {
+	display: none;
+	text-align: center;
+	padding: 2rem;
+	background-color: rgba(187, 187, 187, 0.315);
+}
+
+.show {display:block;}
