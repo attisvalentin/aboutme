@@ -22,21 +22,23 @@
       <div class="wrapped-logo">
         <img class="logo" src="logo.png" alt="Logo">
       </div>
-      <div class="menu-btn" onclick="hamburgerbutton(this)">
-        <div class="btn-line1"></div>
-        <div class="btn-line2"></div>
-        <div class="btn-line3"></div>
-      </div>
-      <div id="dropdown" class="dropdown-content">
-        <a href="#">Skills</a>
-        <a href="#">Games</a>
-        <a href="#">Portfolio</a>
-        <a href="#">Contact</a>
+      <div class="show-btn">
+        <div class="menu-btn" onclick="hamburgerbutton(this)">
+          <div class="btn-line1"></div>
+          <div class="btn-line2"></div>
+          <div class="btn-line3"></div>
+        </div>
+        <div id="dropdown" class="dropdown-content">
+          <a onclick="skills()" href="#">Skills</a>
+          <a href="#">Games</a>
+          <a href="#">Portfolio</a>
+          <a href="#">Contact</a>
+        </div>
       </div>
     </div>
     <!-- the main site article -->
     <main>
-      <div class="wrapped-main">
+      <div id="about-me" class="wrapped-main">
         <div>
           <h2>Néhány szóban rólam</h2>
           <p>A nevem Németh Attila. 27 éves vagyok, Maglódon élek a feleségemmel és nemsokára az újszülött gyermekünkkel és kiskutyánkkal. Szabadidőmben szeretek kertészedni, sportolni, zenélni, kockulni, és dolgozni a saját videójátékaimon.</p>
@@ -48,6 +50,11 @@
         <div>
           <h2>Egy kis kitérő</h2>
           <p>Bár weboldalak fejlesztésével foglalkozom, a játékfejlesztést is fontos része a programozói pályámnak. Az alábbi oldalon --> <a id="linktogame" href="https://midnightbusstudio.itch.io" target="_blank">kattints</a> <-- megtalálod az eddigi munkáim.. :)</p>
+        </div>
+      </div>
+      <div class="wrapped-skills" id="skills">
+        <div>
+          <h2>Skills</h2>
         </div>
       </div>
     </main>
