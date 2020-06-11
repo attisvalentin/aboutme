@@ -86,11 +86,17 @@ pre,table,fieldset,hr {
 
  /*rotated button section in header*/
 
+ button {
+	 display: none;
+ }
+
  .menu-btn {
 	cursor: pointer;
 	display: block;
 	max-width: 13%;
+	text-decoration: none;
  }
+
 
  .btn-line1, .btn-line2, .btn-line3 {
 	 width: 2.8rem;
@@ -166,8 +172,6 @@ pre,table,fieldset,hr {
 	line-height: 2.25rem;
   }
 
-  .hide{display: none;}
-
   /*skill section*/
 
   .wrapped-skills {
@@ -176,5 +180,3 @@ pre,table,fieldset,hr {
 	padding: 2rem;
 	background-color: rgba(187, 187, 187, 0.315);
 }
-
-.show {display:block;}
