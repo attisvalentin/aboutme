@@ -48,12 +48,18 @@ table {
 	box-sizing: border-box;
 }
 
+body {
+	background-color: rgba(187, 187, 187, 0.315);
+}
+
 h1,h2,h3,h4,h5,h6,hgroup,
 ul,ol,dd,
 p,figure,
 pre,table,fieldset,hr {
     margin-bottom: 1rem;
 }
+
+
 
 /*header section*/
 
@@ -84,17 +90,39 @@ pre,table,fieldset,hr {
 	 padding-top: .5rem;
  }
 
+ /*footer*/
+
+ .footer {
+	 text-align: center;
+	 background-color: rgb(31, 121, 148);
+	 padding-top: 1rem;
+	 padding-bottom: 1rem;
+	 font-family: 'Oswald', sans-serif;
+ }
+
+ .footer a, .footer span {
+	 color: whitesmoke;
+ }
+
+ .line {
+	 width: .1rem;
+	 background-color: whitesmoke;
+	 height: 1rem;
+	 display: inline-block;
+ }
+
+ 
+
  /*rotated button section in header*/
 
- button {
-	 display: none;
- }
+
 
  .menu-btn {
 	cursor: pointer;
 	display: block;
 	max-width: 13%;
 	text-decoration: none;
+	z-index: 1;
  }
 
 
@@ -136,7 +164,7 @@ pre,table,fieldset,hr {
   .dropdown-content {
 	  display: none;
 	  position: absolute;
-	  z-index: 1;
+	  z-index: 2;
 	  background-color: rgb(31, 121, 148);
 	  padding: .5rem;
 	  padding-bottom: 0;
@@ -144,17 +172,17 @@ pre,table,fieldset,hr {
 	  border-radius: .5rem;
   }
 
-  .show {display:block;}
+  
 
   /*main site article*/
 
-  .wrapped-main {
+  .wrapped-main, .contact-container {
 	  text-align: center;
 	  padding: 2rem;
 	  background-color: rgba(187, 187, 187, 0.315);
   }
 
-  .wrapped-main h2, .wrapped-skills h2 {
+  .wrapped-main h2, .wrapped-skills h2, .contact-container h2 {
 	font-family: 'Anton', sans-serif;
 	margin-bottom: 2rem;
 	margin-top: 1rem;
@@ -172,11 +200,21 @@ pre,table,fieldset,hr {
 	line-height: 2.25rem;
   }
 
-  /*skill section*/
 
-  .wrapped-skills {
-	display: none;
-	text-align: center;
-	padding: 2rem;
-	background-color: rgba(187, 187, 187, 0.315);
+/*contact*/
+
+#facebook, #insta, #linkedin, #itch {
+	color: rgb(31, 121, 148);
+	transform: scale(2);
+	padding: 1rem
 }
+
+#facebook:hover {
+	transform: scale(2);
+	transition: all 0.5s ease-in-out;
+}
+
+/*javascript*/
+
+.show {display:block;}
+
