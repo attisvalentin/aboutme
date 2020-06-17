@@ -214,6 +214,33 @@ pre,table,fieldset,hr {
 	transition: all .2s ease-in-out;
 }
 
+.contact-container h3 {
+	font-family: 'Anton', sans-serif;
+	margin-bottom: 2rem;
+	margin-top: 1rem;
+	font-size: 1.5rem;
+	color:  rgb(31, 121, 148);
+	line-height: 2rem;
+}
+
+.contact-container p {
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	font-size: 1.2rem;
+	margin-bottom: 1rem;
+	color:  rgb(31, 121, 148);
+	line-height: 2.25rem;
+	
+  }
+
+  .contact-container i {
+	color: rgb(31, 121, 148);
+	transform: scale(2);
+	padding-right: .5rem;
+  }
+
+
+
 /*javascript*/
 
 .show {display:block;}
