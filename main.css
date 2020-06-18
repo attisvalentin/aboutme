@@ -46,7 +46,9 @@ table {
 
 * {
 	box-sizing: border-box;
+	-webkit-tap-highlight-color: transparent;
 }
+
 
 
 body {
@@ -126,9 +128,6 @@ pre,table,fieldset,hr {
 	z-index: 1;
  }
 
- .menu-btn:focus {outline:0;}
-
-
  .btn-line1, .btn-line2, .btn-line3 {
 	 width: 2.8rem;
 	 height: .3rem;
@@ -150,7 +149,6 @@ pre,table,fieldset,hr {
 	-webkit-transform: rotate(45deg) translate(-0.5rem, -0.5rem) ;
 	transform: rotate(45deg) translate(-0.5rem, -0.5rem);
   }
-
 
   /*dropdown menu*/
 
@@ -175,7 +173,6 @@ pre,table,fieldset,hr {
 	  border-radius: .5rem;
   }
 
-  
 
   /*main site article*/
 
