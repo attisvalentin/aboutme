@@ -48,6 +48,7 @@ table {
 	box-sizing: border-box;
 }
 
+
 body {
 	background-color: rgba(187, 187, 187, 0.315);
 }
@@ -124,6 +125,8 @@ pre,table,fieldset,hr {
 	text-decoration: none;
 	z-index: 1;
  }
+
+ .menu-btn:focus {outline:0;}
 
 
  .btn-line1, .btn-line2, .btn-line3 {
