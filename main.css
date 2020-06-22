@@ -49,6 +49,9 @@ table {
 	-webkit-tap-highlight-color: transparent;
 }
 
+body {
+	background-image: url("bg.png");
+}
 
 
 h1,h2,h3,h4,h5,h6,hgroup,
@@ -65,7 +68,7 @@ pre,table,fieldset,hr {
  .header {
 	 text-align: center;
 	 background-color: rgb(31, 121, 148);
-	 padding: 1.5rem;
+	 padding: 1.5rem 1rem .5rem 1rem;
  }
 
  .name-info {
@@ -89,7 +92,7 @@ pre,table,fieldset,hr {
 	 padding-top: .5rem;
  }
 
- /*footer*/
+ /*footer
 
  .footer {
 	 text-align: center;
@@ -110,7 +113,7 @@ pre,table,fieldset,hr {
 	 display: inline-block;
  }
 
- 
+ */
 
  /*rotated button section in header*/
 
@@ -155,7 +158,12 @@ pre,table,fieldset,hr {
 	  color: whitesmoke;
 	  font-family: 'Anton', sans-serif;
 	  text-decoration: none;
-	  padding-bottom: 1rem;
+	  padding: .5rem;
+  }
+
+  .dropdown-content a:active {
+	  background-color: rgba(245, 245, 245, 0.24);
+	  
   }
 
   .dropdown-content {
@@ -164,9 +172,6 @@ pre,table,fieldset,hr {
 	  display: none;
 	  z-index: 2;
 	  background-color: rgb(31, 121, 148);
-	  padding-bottom: 0;
-	  /*box-shadow: .5rem .5rem 2rem .5rem rgba(0, 0, 0, 0.438);
-	  border-radius: .5rem;*/
   }
 
 
@@ -175,7 +180,6 @@ pre,table,fieldset,hr {
   .wrapped-main, .contact-container {
 	  text-align: center;
 	  padding: 2rem;
-	  background-color: rgba(187, 187, 187, 0.315);
   }
 
   .wrapped-main h2, .wrapped-skills h2, .contact-container h2 {
@@ -239,8 +243,21 @@ pre,table,fieldset,hr {
 
 
 @media (min-width: 1024px) {
+
+	.wrapped-main p {
+		text-align: center;
+		padding-left: 20rem;
+		padding-right: 20rem;
+	}
+
 	#facebook:hover, #insta:hover, #linkedin:hover, #itch:hover {
 		transform: scale(2.5);
 		transition: all .2s ease-in-out;
 	}
+	.logo {
+		max-width: 25%;
+		max-height: 25%;
+		padding: .5rem;
+	}
+
 }
