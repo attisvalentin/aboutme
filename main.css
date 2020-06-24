@@ -244,11 +244,15 @@ pre,table,fieldset,hr {
 
 
 @media (min-width: 1024px) {
+	
+	.wrapped-main, .header, .contact-container {
+		max-width: 40%;
+		margin: auto;
+	}
 
 	.wrapped-main p {
 		text-align: center;
-		padding-left: 20rem;
-		padding-right: 20rem;
+		font-size: 1.4rem;
 	}
 
 	#facebook:hover, #insta:hover, #linkedin:hover, #itch:hover {
@@ -256,9 +260,15 @@ pre,table,fieldset,hr {
 		transition: all .2s ease-in-out;
 	}
 	.logo {
-		max-width: 25%;
-		max-height: 25%;
+		max-width: 45%;
+		max-height: 45%;
 		padding: .5rem;
+	}
+
+	body {
+		background-repeat: no-repeat;
+		background-size: 40% 100vw;
+		background-position: center center;
 	}
 
 }
