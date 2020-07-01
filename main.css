@@ -68,7 +68,7 @@ pre,table,fieldset,hr {
  .header {
 	 text-align: center;
 	 background-color: rgb(31, 121, 148);
-	 padding: 1.5rem 1rem .5rem 1rem;
+	 padding: 0;
  }
 
  .name-info {
@@ -79,6 +79,7 @@ pre,table,fieldset,hr {
 	 font-family: 'Anton', sans-serif;
 	 font-size: 1.7rem;
 	 letter-spacing: .1rem;
+	 padding-top: 1.5rem;
  }
 
 .prof {
@@ -89,7 +90,7 @@ pre,table,fieldset,hr {
  .logo {
 	 max-width: 100%;
 	 max-height: 100%;
-	 padding-top: .5rem;
+	 padding: 1rem;
  }
 
  /*footer
@@ -125,6 +126,8 @@ pre,table,fieldset,hr {
 	max-width: 13%;
 	text-decoration: none;
 	z-index: 1;
+	padding-left: 1rem;
+	padding-bottom: 1rem;
  }
 
  .btn-line1, .btn-line2, .btn-line3 {
@@ -173,6 +176,7 @@ pre,table,fieldset,hr {
 	  display: none;
 	  z-index: 2;
 	  background-color: rgb(31, 121, 148);
+	  padding-bottom: .5rem;
   }
 
 
@@ -240,10 +244,15 @@ pre,table,fieldset,hr {
 
 /*javascript*/
 
-.show {display:block;}
+.show {
+	display:block;
+}
 
 
 @media (min-width: 1024px) {
+	.dropdown-content a:hover {
+		background-color: rgba(245, 245, 245, 0.24);
+	}
 	
 	.wrapped-main, .header, .contact-container {
 		max-width: 40%;
